@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ainslie-hsu/testing/issues"
   },
-  "homepage": "https://github.com/ainslie-hsu/testing#readme"
+  "homepage": "https://github.com/ainslie-hsu/testing#readme",
+  "jest": {
+    "testURL": "http://localhost"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2"
+  }
 }

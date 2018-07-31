@@ -5,12 +5,12 @@ describe('add', () => {
     expect(add).toBeInstanceOf(Function);
   });
 
-  // test('returns a number', () => {
-  //   expect(typeof largestProductOfThree([1, 2, 3])).toBe('number');
-  // });
+  test('returns a number', () => {
+    expect(typeof add(1, 2)).toBe('number');
+  });
 
-  // test('gives largest product of three', () => {
-  //   expect(largestProductOfThree([1, 2, 3])).toBe(6);
-  //   expect(largestProductOfThree([2, 1, 3, 7])).toBe(42);
-  // });
+  test('returns sum of two numbers', () => {
+    expect(add(1, 2)).toBe(3);
+    expect(add(2, 3)).toBe(5);
+  });
 });
